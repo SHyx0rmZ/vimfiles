@@ -358,7 +358,7 @@ hi def link cCommentSkip	cComment
 hi def link cString		String
 hi def link cComment		Comment
 hi def link cSpecial		SpecialChar
-hi def link cTodo		Todo
+hi def link cTodo xGreen
 hi def link cCppSkip		cCppOut
 hi def link cCppOut2		cCppOut
 hi def link cCppOut		Comment
@@ -393,3 +393,4 @@ syntax match xYellow "[a-zA-Z_0-9\.>:-]\+\*\+"
 syntax keyword xGreen constexpr
 syntax keyword xBlue nullptr
 syntax keyword xYellow noexcept
+syntax keyword xGray reinterpret_cast static_cast dynamic_cast const_cast
